@@ -11,38 +11,37 @@ using WindowsFormsApp1.Figuras;
 
 namespace WindowsFormsApp1
 {
-    public partial class FrmCuadrado : Form
+    public partial class FrmTrapecio : Form
     {
-        private Cuadrado cuadrado = new Cuadrado();
-        private static FrmCuadrado instance;
-        public static FrmCuadrado Instance
+        private Trapecio trapecio=new Trapecio();
+        private static FrmTrapecio instance;
+        public static FrmTrapecio Instance
         {
             get
             {
                 if (instance == null || instance.IsDisposed)
                 {
-                    instance = new FrmCuadrado();
+                    instance = new FrmTrapecio();
                 }
                 return instance;
             }
-
         }
-        public FrmCuadrado()
+        public FrmTrapecio()
         {
             InitializeComponent();
         }
 
-        private void FrmCuadrado_Load(object sender, EventArgs e)
+        private void FrmTrapecio_Load(object sender, EventArgs e)
         {
 
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            cuadrado.LeerData(txtLado);
-            cuadrado.CalcularArea();
-            cuadrado.CalcularPerimetro();
-            cuadrado.ImprimirData(txtArea, txtPerimetro);
+            trapecio.LeerData(txtBaseMayor, txtBaseMenor, txtAltura,txtLado1,txtLado2);
+            trapecio.CalcularArea();
+            trapecio.CalcularPerimetro();
+            trapecio.ImprimirData(txtArea, txtPerimetro);
         }
     }
 }

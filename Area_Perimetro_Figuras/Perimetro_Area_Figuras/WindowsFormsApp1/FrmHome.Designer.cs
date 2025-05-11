@@ -95,36 +95,42 @@
             this.trapecioToolStripMenuItem.Name = "trapecioToolStripMenuItem";
             this.trapecioToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.trapecioToolStripMenuItem.Text = "Trapecio";
+            this.trapecioToolStripMenuItem.Click += new System.EventHandler(this.trapecioToolStripMenuItem_Click);
             // 
             // trapecioIsóscelesToolStripMenuItem
             // 
             this.trapecioIsóscelesToolStripMenuItem.Name = "trapecioIsóscelesToolStripMenuItem";
             this.trapecioIsóscelesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.trapecioIsóscelesToolStripMenuItem.Text = "Trapecio (Isósceles)";
+            this.trapecioIsóscelesToolStripMenuItem.Click += new System.EventHandler(this.trapecioIsóscelesToolStripMenuItem_Click);
             // 
             // romboideToolStripMenuItem
             // 
             this.romboideToolStripMenuItem.Name = "romboideToolStripMenuItem";
             this.romboideToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.romboideToolStripMenuItem.Text = "Romboide";
+            this.romboideToolStripMenuItem.Click += new System.EventHandler(this.romboideToolStripMenuItem_Click);
             // 
             // heptágonoToolStripMenuItem
             // 
             this.heptágonoToolStripMenuItem.Name = "heptágonoToolStripMenuItem";
             this.heptágonoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.heptágonoToolStripMenuItem.Text = "Heptágono";
+            this.heptágonoToolStripMenuItem.Click += new System.EventHandler(this.heptágonoToolStripMenuItem_Click);
             // 
             // decágonoToolStripMenuItem
             // 
             this.decágonoToolStripMenuItem.Name = "decágonoToolStripMenuItem";
             this.decágonoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.decágonoToolStripMenuItem.Text = "Decágono";
+            this.decágonoToolStripMenuItem.Click += new System.EventHandler(this.decágonoToolStripMenuItem_Click);
             // 
             // pentágonoToolStripMenuItem
             // 
             this.pentágonoToolStripMenuItem.Name = "pentágonoToolStripMenuItem";
             this.pentágonoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pentágonoToolStripMenuItem.Text = "Pentágono";
+            this.pentágonoToolStripMenuItem.Click += new System.EventHandler(this.pentágonoToolStripMenuItem_Click);
             // 
             // FrmHome
             // 

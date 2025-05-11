@@ -7,50 +7,46 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Figuras
 {
-
-    public class Trapecio : Figura
+    public class TrapecioIsosceles:Figura
     {
         public double BaseMayor { get; set; }
         public double BaseMenor { get; set; }
         public double Altura { get; set; }
-        public double Lado1 { get; set; }
-        public double Lado2 { get; set; }
+        public double Lado { get; set; }
 
-        public Trapecio()
+        public TrapecioIsosceles()
         {
-            BaseMayor = 0.0f;
+            BaseMayor= 0.0f;
             BaseMenor = 0.0f;
             Altura = 0.0f;
-            Lado1 = 0.0f;
-            Lado2 = 0.0f;
+            Lado = 0.0f;
             Area = 0.0f;
             Perimetro = 0.0f;
         }
         public override double CalcularArea()
         {
-            return Area= ((BaseMayor + BaseMenor) * Altura) / 2;
+            return Area=((BaseMayor + BaseMenor) * Altura) / 2;
         }
         public override double CalcularPerimetro()
         {
-            return Perimetro= BaseMayor + BaseMenor + Lado1 + Lado2;
+            return Perimetro=BaseMayor + BaseMenor + 2 * Lado;
         }
-        public void LeerData(TextBox txtBaseMayor, TextBox txtBaseMenor, TextBox txtAltura, TextBox txtLado1, TextBox txtLado2)
+        public void LeerData(TextBox txtBaseMayor, TextBox txtBaseMenor, TextBox txtAltura, TextBox txtLado)
         {
             try
             {
                 BaseMayor = double.Parse(txtBaseMayor.Text);
                 BaseMenor = double.Parse(txtBaseMenor.Text);
                 Altura = double.Parse(txtAltura.Text);
-                Lado1 = double.Parse(txtLado1.Text);
-                Lado2 = double.Parse(txtLado2.Text);
+                Lado = double.Parse(txtLado.Text);
 
-                if (BaseMayor < 0 || BaseMenor < 0 || Altura < 0 || Lado1 < 0 || Lado2 < 0)
+                if (BaseMayor < 0 || BaseMenor < 0 || Altura < 0 || Lado < 0)
                 {
                     BaseMayor = 0.0f;
                     BaseMenor = 0.0f;
                     Altura = 0.0f;
-                    Lado1 = 0.0f;
-                    Lado2 = 0.0f;
+                    Lado = 0.0f;
+                 
                     throw new ArgumentException("Los valores no pueden ser negativos.");
 
                 }
@@ -76,7 +72,6 @@ namespace WindowsFormsApp1.Figuras
 
             txtArea.Text = Area.ToString();
             txtPerimetro.Text = Perimetro.ToString();
-
         }
     }
-    }
+}

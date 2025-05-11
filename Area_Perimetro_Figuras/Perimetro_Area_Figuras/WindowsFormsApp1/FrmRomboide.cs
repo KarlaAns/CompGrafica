@@ -11,38 +11,37 @@ using WindowsFormsApp1.Figuras;
 
 namespace WindowsFormsApp1
 {
-    public partial class FrmCuadrado : Form
+    public partial class FrmRomboide : Form
     {
-        private Cuadrado cuadrado = new Cuadrado();
-        private static FrmCuadrado instance;
-        public static FrmCuadrado Instance
+        private Romboide romboide=new Romboide();
+        private static FrmRomboide instance;
+        public static FrmRomboide Instance
         {
             get
             {
                 if (instance == null || instance.IsDisposed)
                 {
-                    instance = new FrmCuadrado();
+                    instance = new FrmRomboide();
                 }
                 return instance;
             }
-
         }
-        public FrmCuadrado()
+        public FrmRomboide()
         {
             InitializeComponent();
         }
 
-        private void FrmCuadrado_Load(object sender, EventArgs e)
+        private void FrmRomboide_Load(object sender, EventArgs e)
         {
 
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            cuadrado.LeerData(txtLado);
-            cuadrado.CalcularArea();
-            cuadrado.CalcularPerimetro();
-            cuadrado.ImprimirData(txtArea, txtPerimetro);
+            romboide.LeerData(txtBase, txtAltura, txtLado);
+            romboide.CalcularArea();
+            romboide.CalcularPerimetro();
+            romboide.ImprimirData(txtArea, txtPerimetro);
         }
     }
 }

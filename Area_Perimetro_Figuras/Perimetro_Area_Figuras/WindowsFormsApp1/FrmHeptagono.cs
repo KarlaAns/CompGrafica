@@ -11,38 +11,37 @@ using WindowsFormsApp1.Figuras;
 
 namespace WindowsFormsApp1
 {
-    public partial class FrmCuadrado : Form
+    public partial class FrmHeptagono : Form
     {
-        private Cuadrado cuadrado = new Cuadrado();
-        private static FrmCuadrado instance;
-        public static FrmCuadrado Instance
+        private Heptagono hept=new Heptagono();
+        private static FrmHeptagono instance;
+        public static FrmHeptagono Instance
         {
             get
             {
                 if (instance == null || instance.IsDisposed)
                 {
-                    instance = new FrmCuadrado();
+                    instance = new FrmHeptagono();
                 }
                 return instance;
             }
-
         }
-        public FrmCuadrado()
+        public FrmHeptagono()
         {
             InitializeComponent();
         }
 
-        private void FrmCuadrado_Load(object sender, EventArgs e)
+        private void FrmHeptagono_Load(object sender, EventArgs e)
         {
 
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            cuadrado.LeerData(txtLado);
-            cuadrado.CalcularArea();
-            cuadrado.CalcularPerimetro();
-            cuadrado.ImprimirData(txtArea, txtPerimetro);
+            hept.LeerData(txtLado, txtApotema);
+            hept.CalcularArea();
+            hept.CalcularPerimetro();
+            hept.ImprimirData(txtArea, txtPerimetro);
         }
     }
 }
