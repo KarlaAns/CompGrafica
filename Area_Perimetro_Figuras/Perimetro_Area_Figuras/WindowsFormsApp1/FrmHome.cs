@@ -143,5 +143,131 @@ namespace WindowsFormsApp1
                 frmPen.BringToFront();
             }
         }
+
+        private void octagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOctagono frmOc = FrmOctagono.Instance;
+            frmOc.MdiParent = this;
+            if (!frmOc.Visible)
+            {
+                frmOc.Show();
+            }
+            else
+            {
+                frmOc.BringToFront();
+            }
+        }
+
+        private void eneágonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEneagono frmEn = FrmEneagono.Instance;
+            frmEn.MdiParent = this;
+            if (!frmEn.Visible)
+            {
+                frmEn.Show();
+            }
+            else
+            {
+                frmEn.BringToFront();
+            }
+        }
+
+        private void hexágonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHexagono frmHex = FrmHexagono.Instance;
+            frmHex.MdiParent = this;
+            if (!frmHex.Visible)
+            {
+                frmHex.Show();
+            }
+            else
+            {
+                frmHex.BringToFront();
+            }
+        }
+
+        private void trapezoideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTrapezoide frmtra = FrmTrapezoide.Instance;
+            frmtra.MdiParent = this;
+            if (!frmtra.Visible)
+            {
+                frmtra.Show();
+            }
+            else
+            {
+                frmtra.BringToFront();
+            }
+        }
+
+        private void rectanguloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRectangulo frmRec = FrmRectangulo.Instance;
+            frmRec.MdiParent = this;
+            if (!frmRec.Visible)
+            {
+                frmRec.Show();
+            }
+            else
+            {
+                frmRec.BringToFront();
+            }
+        }
+
+        private void romboToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRombo frmRom = FrmRombo.Instance;
+            frmRom.MdiParent = this;
+            if (!frmRom.Visible)
+            {
+                frmRom.Show();
+            }
+            else
+            {
+                frmRom.BringToFront();
+            }
+        }
+
+        private void elipseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmElipse frmEli = FrmElipse.Instance;
+            frmEli.MdiParent = this;
+            if (!frmEli.Visible)
+            {
+                frmEli.Show();
+            }
+            else
+            {
+                frmEli.BringToFront();
+            }
+        }
+
+        private void óvaloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOvalo frmOva = FrmOvalo.Instance;
+            frmOva.MdiParent = this;
+            if (!frmOva.Visible)
+            {
+                frmOva.Show();
+            }
+            else
+            {
+                frmOva.BringToFront();
+            }
+        }
+
+        private void deltoideToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDeltoide frmDel = FrmDeltoide.Instance;
+            frmDel.MdiParent = this;
+            if (!frmDel.Visible)
+            {
+                frmDel.Show();
+            }
+            else
+            {
+                frmDel.BringToFront();
+            }
+        }
     }
 }
