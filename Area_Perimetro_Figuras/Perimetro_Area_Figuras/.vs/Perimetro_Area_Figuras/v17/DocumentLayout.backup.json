@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\7 semestre\\grafica\\test\\compgrafica\\area_perimetro_figuras\\perimetro_area_figuras\\windowsformsapp1\\frmcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\windowsformsapp1\\frmdecagono.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdecagono.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\windowsformsapp1\\frmdeltoide.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdeltoide.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\windowsformsapp1\\frmdeltoide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdeltoide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\windowsformsapp1\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\windowsformsapp1\\figuras\\deltoide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B39205-F19C-4643-9C3F-B7D665CBE9AE}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\figuras\\deltoide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCirculo.cs [Design]",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmCirculo.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmCirculo.cs",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmCirculo.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FrmCirculo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:11:55.791Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmDecagono.resx",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDecagono.resx",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDecagono.resx",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDecagono.resx",
+              "RelativeToolTip": "WindowsFormsApp1\\FrmDecagono.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-03T21:09:07.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmDecagono.cs [Design]",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDecagono.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDecagono.cs",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDecagono.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FrmDecagono.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:07:25.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Deltoide.cs",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\Figuras\\Deltoide.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Figuras\\Deltoide.cs",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\Figuras\\Deltoide.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Figuras\\Deltoide.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:04:22.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmDeltoide.Designer.cs",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDeltoide.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDeltoide.Designer.cs",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDeltoide.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\FrmDeltoide.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:04:10.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmDeltoide.cs [Design]",
+              "DocumentMoniker": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDeltoide.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\FrmDeltoide.cs",
+              "ToolTip": "D:\\7 semestre\\Grafica\\test\\CompGrafica\\Area_Perimetro_Figuras\\Perimetro_Area_Figuras\\WindowsFormsApp1\\FrmDeltoide.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\FrmDeltoide.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:04:08.594Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
